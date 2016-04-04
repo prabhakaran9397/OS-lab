@@ -1,0 +1,5 @@
+# !/bin/sh
+echo "import math" >> temp.py
+echo "print math.sin($1*math.pi/180.0)" >> temp.py
+python temp.py
+rm temp.py
